@@ -318,9 +318,9 @@ public class PathFinding {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(frame, "	                               Pathfinding\n"
-												   + "                                  Shehab\n"
-												   + "                          Student Id: 221002534\n"
-												   + "          Build Date:  December 31, 2023   ", "Credit", JOptionPane.PLAIN_MESSAGE, new ImageIcon(""));
+												   + "                                  Topu\n"
+												   + "                          Student Id: 23200280\n"
+												   + "          Build Date:  April, 2025   ", "Credit", JOptionPane.PLAIN_MESSAGE, new ImageIcon(""));
 			}
 		});
 		
