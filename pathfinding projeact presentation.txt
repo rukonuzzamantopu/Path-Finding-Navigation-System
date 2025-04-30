@@ -1,0 +1,76 @@
+2.
+“Good morning everyone.
+I’m Rukonuzzaman Topu, from the CSE department at Green University of Bangladesh.
+Today I’ll share a smart Path-Finding and Navigation System that helps computers find the best way from point A to point B.”
+
+Slide 3 – Contents
+“First, I’ll cover what the project is about, then the big goals, key features, how users can control it, some results, real-world uses, and future work.”
+
+slide 4-Project Goals :The main goal of this project is to create a system that finds the best path through busy areas.
+It saves time, avoids obstacles, and works without much human help.
+
+Slide 5: Features This project shows a grid with different blocks — like start, end, wall, and path.
+You can see how the path is found step-by-step in real time.
+
+Slide 6: User Control You can choose from 4 algorithms: Dijkstra’s, A*, BFS, and DFS.
+You can also change the grid size, add or remove obstacles, and set your own start and end points.
+There’s a simple control panel to do all this easily.
+
+slide 7:  here I am explaining the BFS algorithm 
+Set up the queue
+Take the start cell (“S”), mark it visited, and add it to a FIFO queue.
+This ensures we explore in order of increasing distance.
+
+Level-by-level exploration
+As long as the queue isn’t empty:
+Dequeue the front cell and call it current.
+Draw a “visited” mark on the grid so you see which cells have been checked.
+Stop when you hit “F”
+Right after dequeuing, check if current is the finish cell (“F”).
+If it is, break out of the loop to build the path.
+Enqueue unvisited neighbors
+If not, look at the four adjacent cells (up, down, left, right).
+For each neighbor that’s not a wall (#) and hasn’t been visited:
+Mark it visited, set current as its parent, and enqueue it at the back.
+Because we always pull from the front and add to the back, BFS “fans out” evenly—checking all cells one step away before moving two steps, and so on.
+Reconstruct the shortest path
+Once “F” is reached, follow parent pointers backward from finish to start.
+Reverse that list so it goes from “S” to “F,” then draw it on the grid using “*” markers.
+
+slide 8: Here I am explaining the DFS algorithm 
+Get ready:
+We take the starting cell (“S”) and push it onto a stack.
+We also mark it as visited so we won’t come back to it by mistake.
+Dig in deeply:
+As long as there’s something on the stack, we keep going:
+Pop the top cell off the stack and call it current.
+Draw a “visited” mark on the grid so you see where you’ve been.
+Stop when you find “F”:
+Right after popping, we check: is current the finish cell (“F”)?
+If yes, we break out of the loop and move on to building the path.
+Explore neighbors:
+If it isn’t the finish, we look at the four adjacent cells (up, down, left, right).
+For each neighbor that’s not a wall (#) and hasn’t been visited:
+We mark it visited, remember that current is its parent, and push it onto the stack.
+Because we always push new neighbors on top, we’ll explore one branch as far as it goes before backtracking.
+Trace back the route:
+Once “F” is reached, we follow each node’s parent pointer backwards from finish to start.
+We reverse that list so it runs from “S” to “F,” then draw it on the grid with “*” markers.
+
+
+slide 9:
+here my projeact output.
+
+Slide 10: 
+This system can be used in many places:
+Delivery services to find faster routes.
+Robots in factories or warehouses.
+Emergency vehicles to avoid traffic.
+Games that need smart movement of characters
+
+Slide 11: 
+In the future, I want to add more smart pathfinding methods and connect this system with real-world apps or games.
+
+Slide 12:
+
+  Thank you for listening. I hope you liked my project.
