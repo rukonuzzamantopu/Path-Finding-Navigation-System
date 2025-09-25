@@ -44,16 +44,4 @@ The graphical interface provides features such as grid size adjustments, tool se
    https://github.com/rukonuzzamantopu/Path-Finding-Navigation-System
   
 
-### Key Details Added:
 
-1. **Features**: Explained the functionalities and algorithms in more detail, highlighting the interactivity and adjustable parameters of the graphical version and the algorithm selection process.
-2. **Usage Instructions**: Clear, step-by-step instructions for both the graphical and console versions, explaining how users can interact with the application.
-3. **Screenshots**: Added placeholders for screenshots that demonstrate the graphical user interface (GUI) and algorithm visualization. Replace the `path_to_image` URLs with the actual image links in your repository.
-4. **Project Video and Report**: Links to the progress video and project report to provide a deeper understanding of the work completed and its results.
-5. **Presentation**: A section for the presentation slide download link.
-6. **License**: The project uses the MIT License for open-source contributions.
-
-### Next Steps:
-1. **Add Files**: Upload the project report, presentation, video, and screenshots to their respective folders within your repository (e.g., `assets/videos`, `assets/reports`, `assets/screenshots`).
-2. **Update Links**: Replace the placeholder links in the `README.md` with actual links to the files in your repository (for video, report, and slides).
-3. **Improve UI**: You could further enhance the UI based on user feedback and add more features, like real-time grid manipulation during the algorithm execution.
