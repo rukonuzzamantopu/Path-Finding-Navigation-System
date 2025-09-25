@@ -41,5 +41,5 @@ The graphical interface provides features such as grid size adjustments, tool se
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/Pathfinding-Visualization.git
-   cd Pathfinding-Visualization
+   https://github.com/rukonuzzamantopu/Path-Finding-Navigation-System
+  
